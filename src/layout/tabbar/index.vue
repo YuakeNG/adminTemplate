@@ -11,20 +11,25 @@
   </div>
 </template>
 
-<script lang='ts' setup>
+<script lang="ts" setup>
 //左侧菜单
-import Breadcrumb from './breadcrumb/index.vue'
+import Breadcrumb from "./breadcrumb/index.vue";
 //右侧菜单
-import Setting from './setting/index.vue';
+import Setting from "./setting/index.vue";
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .tabbar {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, rgb(232, 223, 223), rgb(201, 178, 178), white);
+  background-image: linear-gradient(
+    to right,
+    rgb(232, 223, 223),
+    rgb(201, 178, 178),
+    white
+  );
 
   .tabbar_left {
     display: flex;

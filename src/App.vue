@@ -5,8 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive, toRefs, ref } from 'vue';
-
+import { reactive, toRefs, ref } from "vue";
 </script>
 
 <style lang="less" scoped></style>

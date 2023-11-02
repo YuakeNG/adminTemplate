@@ -19,7 +19,7 @@ const useUserStore = defineStore("User", {
   actions: {
     //用户登录的方法
     async userLogin(data: loginFormData) {
-      let res = await reqLogin(data);
+      const res = await reqLogin(data);
       //登录请求成功200 -> token
       //登录请求：失败201 -> 登录请求失败错的信息
       if (res.code == 200) {
